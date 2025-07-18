@@ -1,0 +1,16 @@
+(library
+ (name PQSat)
+ (public_name CoAR.PQSat)
+ (preprocess
+  (pps ppx_deriving_yojson))
+ (libraries
+  core
+  yojson
+  apronext
+  CoAR.common
+  CoAR.ast
+  CoAR.SMT
+  CoAR.Z3Smt
+  CoAR.PCSPSolver)
+ (modules apronInterface qsat config solver)
+ (synopsis "A PQSMT solver based on MBP"))

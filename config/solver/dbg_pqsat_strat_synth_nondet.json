@@ -1,0 +1,16 @@
+[
+    "PQSat",
+    {
+        "verbose": true,
+        "mode": [
+            "StratSynth",
+            {
+                "pcsp_solver": [
+                    "Filename",
+                    "./config/solver/strat_synth_determ_forward.json"
+                ],
+                "determinize": false
+            }
+        ]
+    }
+]

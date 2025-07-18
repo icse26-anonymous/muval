@@ -1,0 +1,9 @@
+[
+    "PQSat",
+    {
+        "verbose": false,
+        "mode": [
+            "PDR"
+        ]
+    }
+]
